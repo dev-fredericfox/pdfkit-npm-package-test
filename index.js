@@ -1,5 +1,5 @@
-import PDFDocument from "pdfkit";
-// import blobStream from "blob-stream";
+var PDFDocument = require("pdfkit");
+var blobStream = require("blob-stream");
 // import "./register-files";
 
 export default function makePDF() {
